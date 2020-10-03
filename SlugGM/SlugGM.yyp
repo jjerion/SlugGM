@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sJellyBackground","path":"sprites/sJellyBackground/sJellyBackground.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
