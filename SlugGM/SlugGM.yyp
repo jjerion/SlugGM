@@ -1,9 +1,10 @@
 {
   "resources": [
-    {"id":{"name":"oParticleController","path":"objects/oParticleController/oParticleController.yy",},"order":0,},
-    {"id":{"name":"particleInit","path":"scripts/particleInit/particleInit.yy",},"order":1,},
     {"id":{"name":"sJellyBackground","path":"sprites/sJellyBackground/sJellyBackground.yy",},"order":16,},
-    {"id":{"name":"oSmokeEmitter","path":"objects/oSmokeEmitter/oSmokeEmitter.yy",},"order":17,},
+    {"id":{"name":"oSlug","path":"objects/oSlug/oSlug.yy",},"order":0,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"sSlug","path":"sprites/sSlug/sSlug.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
