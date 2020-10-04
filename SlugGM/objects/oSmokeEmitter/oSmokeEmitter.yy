@@ -25,7 +25,7 @@
     "path": "SlugGM.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Object2",
+  "name": "oSmokeEmitter",
   "tags": [],
   "resourceType": "GMObject",
 }
