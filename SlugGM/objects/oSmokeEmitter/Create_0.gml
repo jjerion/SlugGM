@@ -34,11 +34,11 @@ global.Particle1_Emitter1 = part_emitter_create(global.P_System);  //This will b
 
 
 //Define emitter properties...
-part_emitter_region(global.P_System, global.Particle1_Emitter1, 0, room_width, 0, room_height, ps_shape_rectangle, ps_distr_gaussian);
+part_emitter_region(global.P_System, global.Particle1_Emitter1, 0, room_width, 0, room_height, ps_shape_rectangle, ps_distr_linear);
 
 
 //Use an emitter to stream particles...
-part_emitter_stream(global.P_System, global.Particle1_Emitter1, global.Particle1, 2000);
+part_emitter_stream(global.P_System, global.Particle1_Emitter1, global.Particle1, 1700);
 
 //Set alarm to burst particles...
 alarm[0] = 30;
