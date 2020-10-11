@@ -3,7 +3,7 @@
 xvel = 0;
 yvel = 0;
 
-slugspeed = 5;
+slugspeed = 7;
 
 slugdrag = 0.1;
 
