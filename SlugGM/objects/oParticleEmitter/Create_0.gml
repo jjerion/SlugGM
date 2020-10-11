@@ -38,7 +38,7 @@ part_emitter_region(global.P_System, global.Particle1_Emitter1, 0, room_width, 0
 
 
 //Use an emitter to stream particles...
-part_emitter_stream(global.P_System, global.Particle1_Emitter1, global.Particle1, 1700);
+part_emitter_stream(global.P_System, global.Particle1_Emitter1, global.Particle1, 1000);
 
 //Set alarm to burst particles...
 alarm[0] = 30;
