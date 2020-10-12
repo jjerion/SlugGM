@@ -3,8 +3,8 @@
 xvel = 0;
 yvel = 0;
 
-slugspeed = 7;
+slugspeed = 3;
 
-slugdrag = 0.1;
+slugdrag = 0.03;
 
 image_angle = 90;
