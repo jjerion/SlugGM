@@ -33,3 +33,8 @@ if(abs(xvel) > 0){
 if(abs(yvel) > 0){
 	yvel -= sign(yvel) * min(slugdrag, abs(yvel));
 }
+//keep player inside map
+if (x < 15) x = 15;
+if (x > room_width - 15) x = room_width - 15;
+if (y < 15) y = 15;
+if (y > room_height - 15) y = room_height - 15;
