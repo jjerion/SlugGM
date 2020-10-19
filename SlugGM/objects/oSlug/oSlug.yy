@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSlug",
-    "path": "sprites/sSlug/sSlug.yy",
+    "name": "sIdle",
+    "path": "sprites/sIdle/sIdle.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,38 +1,49 @@
 /// inputs
 // You can write your code in this editor
 
+
+//when left mouse button is pressed
 if(mouse_check_button(mb_left)){
-	image_angle = point_direction(x, y, mouse_x, mouse_y);
+	image_angle = point_direction(x, y, mouse_x, mouse_y); //rotate slug to face mouse
+	//slug won't move while mouse is pressed
+	xvel = 0;
+	yvel = 0;
 	
-	sprite_index = sSlugContract;
+	//set sprite to show slug building up to move
+	sprite_index = sContract;
 	if(image_index >= 2) {
 		image_speed = 0;
 		}
 
 }
 
+//when left mouse button is released
 if(mouse_check_button_released(mb_left)){
+	
+	//move slug
 	xvel = cos(degtorad(image_angle)) * slugspeed;
 	yvel = -sin(degtorad(image_angle)) * slugspeed;
 	
-
-	sprite_index = sSlugRelease;
+	//set sprite to slug releasing
+	sprite_index = sRelease;
 	if(image_index >= 2){
 		image_speed = 0;
 	}
 
 }
 
+//movement
 x += xvel;
 y += yvel;
 
-if(abs(xvel) > 0){
-	xvel -= sign(xvel) * min(slugdrag, abs(xvel));
+
+//make slug slow down after movement
+if(abs(xvel) > 0) || (abs(yvel) >0) {
+	xvel -= cos(degtorad(image_angle)) * slugdrag;
+	yvel -= -sin(degtorad(image_angle)) * slugdrag;
 }
 
-if(abs(yvel) > 0){
-	yvel -= sign(yvel) * min(slugdrag, abs(yvel));
-}
+
 //keep player inside map
 if (x < 15) x = 15;
 if (x > room_width - 15) x = room_width - 15;
