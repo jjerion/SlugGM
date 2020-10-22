@@ -17,6 +17,7 @@
     {"id":{"name":"sndMusic","path":"sounds/sndMusic/sndMusic.yy",},"order":0,},
     {"id":{"name":"oAudio","path":"objects/oAudio/oAudio.yy",},"order":4,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
