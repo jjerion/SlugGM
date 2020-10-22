@@ -1,8 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-message = "";
-limit = 25;
-
-cursor = "|";
-delay = 20;
+if (cursor=="|") cursor = ""; else cursor = "|";
 alarm[0] = delay;
