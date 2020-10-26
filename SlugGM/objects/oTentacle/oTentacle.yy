@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sJellyGallery",
-    "path": "sprites/sJellyGallery/sJellyGallery.yy",
+    "name": "sTentacle",
+    "path": "sprites/sTentacle/sTentacle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"oJellyGallery","path":"objects/oJellyGallery/oJellyGallery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oJellyGallery",
+  "name": "oTentacle",
   "tags": [],
   "resourceType": "GMObject",
 }
