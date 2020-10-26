@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sSquidGallery",
-    "path": "sprites/sSquidGallery/sSquidGallery.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"oSquidGallery","path":"objects/oSquidGallery/oSquidGallery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSquidGallery",
+  "name": "oMenu",
   "tags": [],
   "resourceType": "GMObject",
 }
