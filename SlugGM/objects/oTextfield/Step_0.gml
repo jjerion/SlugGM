@@ -7,7 +7,7 @@ else
     keyboard_string = message;
 	
 if (keyboard_string == "ice") {
-     // what to do if the text is right
+     oTentacle.image_speed = 1;
 } else {
-     // what to do if the text is wrong
+     oTentacle.image_speed = 0;
 }
